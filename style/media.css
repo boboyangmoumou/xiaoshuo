@@ -1,0 +1,144 @@
+@media (min-width:1200px){
+#main,.header-container,.search-sousuo,.footer{
+		  width: 1124px;
+}
+.footer-bottom ul{
+	margin-bottom: 0;
+}
+}
+
+@media (max-width:1023px) and (min-width:768px){
+#main,.header-container,.search-sousuo,.footer{
+		  width: 750px;
+}
+.container{
+	max-width: 840px;
+}
+.header-logo-wrapper{
+	width: 50%;
+}
+.header-wrapper-tab{
+	display: none;
+}
+.footer-bottom ul{
+	margin-bottom: 0;
+}
+}
+@media (max-width:1199px) and (min-width:1024px){
+#main,.header-container,.search-sousuo,.footer{
+		  width: 900px;
+}
+.footer-bottom ul{
+	margin-bottom: 0;
+}
+}
+@media (max-width:859px) and (min-width:666px){
+.header-logo-wrapper{
+	width: 50%;
+}
+.container{
+	max-width: 600px;
+}
+.header-wrapper-tab{
+	display: none;
+}
+	.footer-link-left{
+	display: none;
+}
+	.footer-bottom ul{
+	margin-bottom: 0;
+}
+
+.footer-link-right{
+	width: 80%;
+	float: left;
+}
+.weixin-logo{
+	float:none;
+}
+.weixinpic{
+	width: 80%;
+	margin: 0 auto;
+}
+.weixinpic-saomiao{
+	float: right;
+	width: 50%;
+}
+.weixin-logo{
+	width: 48%;
+	float: left;
+}
+
+.footer-bottom li:last-child{
+	display: none;
+}
+.footer-bottom ul{
+	margin-bottom: 0;
+}
+
+}
+@media (max-width:665px) and (min-width:480px){
+.header-logo-wrapper{
+	width: 60%;
+}
+.container{
+	width: 600px;
+}
+.header-wrapper-tab{
+	display: none;
+}
+	.footer-link-left{
+	display: none;
+}
+
+.footer-link-right{
+	width: 100%;
+	float: left;
+}
+.weixin-logo{
+	float:none;
+}
+.weixinpic{
+	width: 80%;
+	margin: 0 auto;
+}
+.weixinpic-saomiao{
+	float: right;
+	width: 50%;
+}
+.weixin-logo{
+	width: 48%;
+	float: left;
+}
+.footer-bottom li:last-child{
+	display: none;
+}
+}
+@media (max-width:479px){
+.header-logo-wrapper{
+	width: 90%;
+}
+.header-wrapper-tab{
+	display: none;
+}
+.footer-link-right{
+	width: 90%;
+	float: none;
+}
+.weixin-logo{
+	width: 50%;
+}
+.weixinpic-saomiao{
+	width: 49%
+}
+/* 尾部*/
+.footer-link-left{
+	display: none;
+}
+.footer-bottom li:last-child{
+	display: none;
+}
+.footer-bottom ul{
+	margin-bottom: 0;
+}
+}
