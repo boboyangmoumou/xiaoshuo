@@ -1,6 +1,6 @@
 @media (min-width:1200px){
-#main,.header-container,.search-sousuo,.footer{
-		  width: 1124px;
+#main,#main-login,.header-container,.search-sousuo,.footer{
+		  width: 1070px;
 }
 .footer-bottom ul{
 	margin-bottom: 0;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width:1023px) and (min-width:768px){
-#main,.header-container,.search-sousuo,.footer{
+#main,#main-login,.header-container,.search-sousuo,.footer{
 		  width: 750px;
 }
 .container{
@@ -23,14 +23,24 @@
 .footer-bottom ul{
 	margin-bottom: 0;
 }
+/*注册*/
+.main-signin{
+	width: 80%;
+}
+
 }
 @media (max-width:1199px) and (min-width:1024px){
-#main,.header-container,.search-sousuo,.footer{
+#main,#main-login,.header-container,.search-sousuo,.footer{
 		  width: 900px;
 }
 .footer-bottom ul{
 	margin-bottom: 0;
 }
+/*注册*/
+.main-signin{
+	width: 70%;
+}
+
 }
 @media (max-width:859px) and (min-width:666px){
 .header-logo-wrapper{
@@ -76,10 +86,22 @@
 	margin-bottom: 0;
 }
 
+/*登录*/
+	.main-login-left{
+		display: none;
+	}
+	.main-login-right{
+		width: 90%;
+	}
+/*注册*/
+.main-signin{
+	width: 90%;
+}
+
 }
 @media (max-width:665px) and (min-width:480px){
 .header-logo-wrapper{
-	width: 60%;
+	width: 80%;
 }
 .container{
 	width: 600px;
@@ -113,10 +135,26 @@
 .footer-bottom li:last-child{
 	display: none;
 }
+.footer-bottom-hide{
+	display: none;
+}
+/*登录*/
+	.main-login-left{
+		display: none;
+	}
+	.main-login-right{
+		width: 90%;
+	}
+/*注册*/
+.main-signin{
+	width: 90%;
+}
+
 }
 @media (max-width:479px){
 .header-logo-wrapper{
-	width: 90%;
+	width: 100%;
+	margin-top:10px; 
 }
 .header-wrapper-tab{
 	display: none;
@@ -141,4 +179,19 @@
 .footer-bottom ul{
 	margin-bottom: 0;
 }
+.footer-bottom-hide{
+	display: none;
+}
+/*登录*/
+	.main-login-left{
+		display: none;
+	}
+	.main-login-right{
+		width: 90%;
+	}
+/*注册*/
+.main-signin{
+	width: 100%;
+}
+
 }
